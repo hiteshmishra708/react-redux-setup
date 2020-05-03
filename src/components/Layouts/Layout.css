@@ -1,0 +1,45 @@
+.main-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+}
+
+.main-content {
+    margin: 15px 50px 5px 80px;
+}
+
+@media screen and (max-width: 1025px) {
+    .main-content {
+        margin: 5px 0px 0px 0px;
+    }
+    .content {
+        margin-top: 20px;
+    }
+
+    .queue .div-right, .not-appeared .div-right {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .queue .queue-user-div, .not-appeared .not-appeared-user-div {
+        height: 145px;
+        /* text-align: center; */
+    }
+
+    .login-footer, .heading {
+        display: none !important;
+    }
+
+    .menu-links {
+        display: none;
+    }
+
+    .mobile-links {
+        display: block !important;
+    }
+}
+
+.mobile-links {
+    display: none;
+}
